@@ -1,4 +1,7 @@
 
+## 1.0.4
+- Changed Dockerfile
+
 ## 1.0.3
 - Changed Dockerfile
 
