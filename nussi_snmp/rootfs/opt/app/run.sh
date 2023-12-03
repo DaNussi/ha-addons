@@ -1,3 +1,3 @@
 #!/usr/bin/with-contenv bashio
 
-echo "java -jar /opt/app/app.jar"
+java -jar app.jar
