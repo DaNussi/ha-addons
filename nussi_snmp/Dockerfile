@@ -3,6 +3,7 @@ FROM openjdk:17-oracle
 
 COPY rootfs /
 
-RUN chmod a+x /run.sh
+WORKDIR /app
+RUN chmod a+x run.sh
 
-CMD [ "/run.sh" ]
+CMD [ "run.sh" ]
